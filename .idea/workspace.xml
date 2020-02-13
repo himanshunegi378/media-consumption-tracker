@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e2e36a0-205e-4b7e-ae52-3e5d72cc8654" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/himanshu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0e2e36a0-205e-4b7e-ae52-3e5d72cc8654" name="Default Changelist" comment="gh deploy config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +105,7 @@
       <workItem from="1581431024589" duration="4132000" />
       <workItem from="1581476939490" duration="289000" />
       <workItem from="1581563488867" duration="10545000" />
-      <workItem from="1581601520187" duration="4732000" />
+      <workItem from="1581601520187" duration="5988000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1581607102600</created>
@@ -120,25 +114,51 @@
       <option name="project" value="LOCAL" />
       <updated>1581607102600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gh deploy config">
+      <created>1581607656584</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581607656584</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gh deploy config">
+      <created>1581608716621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581608716621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="gh deploy config" />
+    <option name="LAST_COMMIT_MESSAGE" value="gh deploy config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="95" key="#ESLint" timestamp="1581477203896">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="95" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1581477203896" />
-    <state x="406" y="32" key="CommitChangelistDialog2" timestamp="1581607099622">
+    <state x="406" y="32" key="CommitChangelistDialog2" timestamp="1581608715523">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="406" y="32" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581607099622" />
+    <state x="406" y="32" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581608715523" />
     <state width="1514" height="233" key="GridCell.Tab.0.bottom" timestamp="1581576119757">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -159,10 +179,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="279" y="63" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581425323619" />
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1581607127384">
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1581608727119">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1581607127384" />
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1581608727119" />
     <state x="474" y="51" width="588" height="732" key="find.popup" timestamp="1581350208417">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

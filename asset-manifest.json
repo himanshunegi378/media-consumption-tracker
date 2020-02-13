@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/media-tracker/static/css/main.1eccdc2f.chunk.css",
-    "main.js": "/media-tracker/static/js/main.9eb337c7.chunk.js",
-    "main.js.map": "/media-tracker/static/js/main.9eb337c7.chunk.js.map",
-    "runtime-main.js": "/media-tracker/static/js/runtime-main.6cbacd47.js",
-    "runtime-main.js.map": "/media-tracker/static/js/runtime-main.6cbacd47.js.map",
-    "static/js/2.0fb99960.chunk.js": "/media-tracker/static/js/2.0fb99960.chunk.js",
-    "static/js/2.0fb99960.chunk.js.map": "/media-tracker/static/js/2.0fb99960.chunk.js.map",
-    "index.html": "/media-tracker/index.html",
-    "precache-manifest.7c68c94a131c40c2a78f9304d19cc49e.js": "/media-tracker/precache-manifest.7c68c94a131c40c2a78f9304d19cc49e.js",
-    "service-worker.js": "/media-tracker/service-worker.js",
-    "static/css/main.1eccdc2f.chunk.css.map": "/media-tracker/static/css/main.1eccdc2f.chunk.css.map",
-    "static/js/2.0fb99960.chunk.js.LICENSE.txt": "/media-tracker/static/js/2.0fb99960.chunk.js.LICENSE.txt"
+    "main.css": "/media-consumption-tracker/static/css/main.1eccdc2f.chunk.css",
+    "main.js": "/media-consumption-tracker/static/js/main.c3b39a94.chunk.js",
+    "main.js.map": "/media-consumption-tracker/static/js/main.c3b39a94.chunk.js.map",
+    "runtime-main.js": "/media-consumption-tracker/static/js/runtime-main.61272b2d.js",
+    "runtime-main.js.map": "/media-consumption-tracker/static/js/runtime-main.61272b2d.js.map",
+    "static/js/2.0fb99960.chunk.js": "/media-consumption-tracker/static/js/2.0fb99960.chunk.js",
+    "static/js/2.0fb99960.chunk.js.map": "/media-consumption-tracker/static/js/2.0fb99960.chunk.js.map",
+    "index.html": "/media-consumption-tracker/index.html",
+    "precache-manifest.3eaa74927aaeb2a3244071aa0731867b.js": "/media-consumption-tracker/precache-manifest.3eaa74927aaeb2a3244071aa0731867b.js",
+    "service-worker.js": "/media-consumption-tracker/service-worker.js",
+    "static/css/main.1eccdc2f.chunk.css.map": "/media-consumption-tracker/static/css/main.1eccdc2f.chunk.css.map",
+    "static/js/2.0fb99960.chunk.js.LICENSE.txt": "/media-consumption-tracker/static/js/2.0fb99960.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6cbacd47.js",
+    "static/js/runtime-main.61272b2d.js",
     "static/js/2.0fb99960.chunk.js",
     "static/css/main.1eccdc2f.chunk.css",
-    "static/js/main.9eb337c7.chunk.js"
+    "static/js/main.c3b39a94.chunk.js"
   ]
 }

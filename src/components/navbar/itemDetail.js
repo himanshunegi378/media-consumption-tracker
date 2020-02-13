@@ -31,7 +31,7 @@ class ItemDetail extends Component {
       this.setState({ detail: res });
     });
     axios
-      .get(`http://www.omdbapi.com/?i=${imdbId}&apikey=c61657ee`)
+      .get(`https://www.omdbapi.com/?i=${imdbId}&apikey=c61657ee`)
       .then(res => {
         this.setState({ image: res.data.Poster });
         console.log(res.data.Poster);

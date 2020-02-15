@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2e36a0-205e-4b7e-ae52-3e5d72cc8654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/catalog/eye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/catalog/mediaCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/catalog/mediaCatalog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigationBar/navigationBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/searchBar/searchBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/action/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/itemDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchBar/itemDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigationBar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/searchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchBar/searchBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/searchItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchBar/searchItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigationBar/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/catalog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -49,14 +68,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\trakt_api_practice\src\components\catalog" />
       <recent name="D:\projects\trakt_api_practice\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\trakt_api_practice\src\redux" />
+      <recent name="D:\projects\trakt_api_practice\src\components\searchBar" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.utils.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="utils.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/navbar/utils.js" working-dir="$PROJECT_DIR$/src/components/navbar">
+    <configuration name="utils.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/navigationBar/utils.js" working-dir="$PROJECT_DIR$/src/components/navigationBar">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -105,7 +129,11 @@
       <workItem from="1581431024589" duration="4132000" />
       <workItem from="1581476939490" duration="289000" />
       <workItem from="1581563488867" duration="10545000" />
-      <workItem from="1581601520187" duration="6234000" />
+      <workItem from="1581601520187" duration="7535000" />
+      <workItem from="1581650039233" duration="5926000" />
+      <workItem from="1581658581872" duration="6207000" />
+      <workItem from="1581687190920" duration="1663000" />
+      <workItem from="1581743900916" duration="11040000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1581607102600</created>
@@ -135,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581608799637</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gh deploy config">
+      <created>1581609048170</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581609048170</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +181,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -162,10 +199,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="95" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1581477203896" />
-    <state x="406" y="32" key="CommitChangelistDialog2" timestamp="1581608798280">
+    <state x="406" y="32" key="CommitChangelistDialog2" timestamp="1581609046899">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="406" y="32" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581608798280" />
+    <state x="406" y="32" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581609046899" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1581687299362">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581687299362" />
     <state width="1514" height="233" key="GridCell.Tab.0.bottom" timestamp="1581576119757">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -186,13 +227,21 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="279" y="63" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581425323619" />
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1581608808569">
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1581609056599">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1581608808569" />
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1581609056599" />
     <state x="474" y="51" width="588" height="732" key="find.popup" timestamp="1581350208417">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="474" y="51" width="588" height="732" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1581350208417" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1581652905364">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.834@0.0.1536.834" timestamp="1581652905364" />
+    <state x="432" y="200" key="run.anything.popup" timestamp="1581687429768">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="432" y="200" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1581687429768" />
   </component>
 </project>

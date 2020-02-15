@@ -26,31 +26,33 @@ class ItemDetail extends Component {
     };
     let trakt = new Trakt(options);
     const imdbId = this.props.id;
-    trakt.movies.summary({ id: imdbId, extended: "full" }).then(res => {
-      console.log(res);
-      this.setState({ detail: res });
-    });
     axios
       .get(`https://www.omdbapi.com/?i=${imdbId}&apikey=c61657ee`)
       .then(res => {
         this.setState({ image: res.data.Poster });
-        console.log(res.data.Poster);
       });
+    trakt.movies
+      .summary({ id: imdbId, extended: "full" })
+      .then(res => {
+        this.setState({ detail: res });
+      })
+      .catch(err => console.log(err));
   }
 
   render() {
-    console.log(this.state.detail);
     return (
       <>
         {this.state.detail !== null ? (
           <Card body bg="success " text="white">
-            <Row >
+            <Row>
               <Col sm={2}>
-            <img className="img-fluid h-auto " src={this.state.image} />
+                <img
+                  className="img-fluid h-auto"
+                  alt="X"
+                  src={this.state.image}
+                />
               </Col>
-              <Col sm={10}>
-                {this.state.detail.overview}
-              </Col>
+              <Col sm={10}>{this.state.detail.overview}</Col>
             </Row>
           </Card>
         ) : null}

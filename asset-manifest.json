@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/media-consumption-tracker/static/css/main.448576a7.chunk.css",
-    "main.js": "/media-consumption-tracker/static/js/main.82a21337.chunk.js",
-    "main.js.map": "/media-consumption-tracker/static/js/main.82a21337.chunk.js.map",
+    "main.css": "/media-consumption-tracker/static/css/main.18238b05.chunk.css",
+    "main.js": "/media-consumption-tracker/static/js/main.2f60fb0a.chunk.js",
+    "main.js.map": "/media-consumption-tracker/static/js/main.2f60fb0a.chunk.js.map",
     "runtime-main.js": "/media-consumption-tracker/static/js/runtime-main.61272b2d.js",
     "runtime-main.js.map": "/media-consumption-tracker/static/js/runtime-main.61272b2d.js.map",
-    "static/js/2.471496eb.chunk.js": "/media-consumption-tracker/static/js/2.471496eb.chunk.js",
-    "static/js/2.471496eb.chunk.js.map": "/media-consumption-tracker/static/js/2.471496eb.chunk.js.map",
+    "static/js/2.fb757638.chunk.js": "/media-consumption-tracker/static/js/2.fb757638.chunk.js",
+    "static/js/2.fb757638.chunk.js.map": "/media-consumption-tracker/static/js/2.fb757638.chunk.js.map",
     "index.html": "/media-consumption-tracker/index.html",
-    "precache-manifest.b909485616f45e41280f2c84ff935d08.js": "/media-consumption-tracker/precache-manifest.b909485616f45e41280f2c84ff935d08.js",
+    "precache-manifest.d477e212d9cc0495c89d22af69a85a21.js": "/media-consumption-tracker/precache-manifest.d477e212d9cc0495c89d22af69a85a21.js",
     "service-worker.js": "/media-consumption-tracker/service-worker.js",
-    "static/css/main.448576a7.chunk.css.map": "/media-consumption-tracker/static/css/main.448576a7.chunk.css.map",
-    "static/js/2.471496eb.chunk.js.LICENSE.txt": "/media-consumption-tracker/static/js/2.471496eb.chunk.js.LICENSE.txt",
+    "static/css/main.18238b05.chunk.css.map": "/media-consumption-tracker/static/css/main.18238b05.chunk.css.map",
+    "static/js/2.fb757638.chunk.js.LICENSE.txt": "/media-consumption-tracker/static/js/2.fb757638.chunk.js.LICENSE.txt",
     "static/media/eye.jpg": "/media-consumption-tracker/static/media/eye.703253fd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.61272b2d.js",
-    "static/js/2.471496eb.chunk.js",
-    "static/css/main.448576a7.chunk.css",
-    "static/js/main.82a21337.chunk.js"
+    "static/js/2.fb757638.chunk.js",
+    "static/css/main.18238b05.chunk.css",
+    "static/js/main.2f60fb0a.chunk.js"
   ]
 }

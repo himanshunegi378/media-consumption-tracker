@@ -1,6 +1,7 @@
 let state = {
   catalog: [],
-  searchText: ""
+  searchText: "",
+  loading: false
 };
 
 const todos = (initialState = state, action) => {
@@ -11,7 +12,10 @@ const todos = (initialState = state, action) => {
       });
     case "UDPATE_CATALOG":
       return { ...state, catalog: action.payload.newCatalogList };
-
+    case "LOADING":
+      return { ...state, loading: action.payload.loading };
+    case "LOADING_COMPLETE":
+      return { ...state, loading: action.payload.loading };
     default:
       return state;
   }

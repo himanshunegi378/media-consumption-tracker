@@ -58,9 +58,10 @@ class SearchBar extends Component {
   render() {
     return (
       <>
-        <div className="searchbar mx-auto w-75">
+        <div className="searchbar mx-auto w-75 card-2">
           <form
-            className=" input-group input-group-sm"
+              autoComplete='off'
+            className=" input-group input-group-sm "
             onSubmit={this.handleSubmit}
           >
             <input

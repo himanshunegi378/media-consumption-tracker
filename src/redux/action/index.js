@@ -14,4 +14,18 @@ export  const updateMediaCatlog = newCatalogList =>
       payload:{
         newCatalogList: newCatalogList
       }
-    })
+    });
+
+export const loading = () => ({
+         type: "LOADING",
+         payload: {
+           loading: true
+         }
+       });
+
+export const loadingComplete = () => ({
+    type: "LOADING_COMPLETE",
+    payload: {
+        loading: false
+    }
+});

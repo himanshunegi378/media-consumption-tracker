@@ -2,12 +2,15 @@ import React, { Component } from "react";
 import MediaCard from "./mediaCard";
 import { connect } from "react-redux";
 import axios from "axios";
+import { loading,loadingComplete} from "../../redux/action";
+import './style.css'
 
 const Trakt = require("nodeless-trakt");
 
 class MediaCatalog extends Component {
   constructor(props, context) {
     super(props, context);
+
     this.state = {
       mediaCard: []
     };
@@ -33,7 +36,7 @@ class MediaCatalog extends Component {
       pagination: true // defaults to false, global pagination (see below)
     };
     let trakt = new Trakt(options);
-
+    this.props.loading()
     newCatalog.forEach(media => {
       const imdbId = media.movie.ids.imdb;
       axios
@@ -45,6 +48,9 @@ class MediaCatalog extends Component {
             .then(res => {
               cardList.push(<MediaCard key={imdbId} imageLink={imageLink} media={res} />);
                 this.setState({ mediaCard: cardList });
+                this.props.loadingComplete()
+              window.document.getElementById('media-catalog').focus();
+
 
             })
             .catch(err => console.log(err));
@@ -58,9 +64,13 @@ class MediaCatalog extends Component {
     //     cards.push(<MediaCard/>)
     // }
     return (
-      <div className=" d-flex flex-wrap justify-content-center">
+        <>
+
+      <div tabIndex="0" id='media-catalog' className=" d-flex flex-wrap justify-content-center">
+
         {this.state.mediaCard}
       </div>
+          </>
     );
   }
 }
@@ -71,4 +81,10 @@ function mapStateToProps(state, ownProps) {
   };
 }
 
-export default connect(mapStateToProps, null)(MediaCatalog);
+const mapDispatchToProps = dispatch => {
+  return {
+    loading: () => {dispatch(loading())},
+    loadingComplete: ()=>{dispatch(loadingComplete())}
+  };
+};
+export default connect(mapStateToProps, mapDispatchToProps)(MediaCatalog);

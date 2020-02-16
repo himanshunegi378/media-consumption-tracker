@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.scss";
 import NavigationBar from "./components/navigationBar/navigationBar";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import SearchBar from "./components/searchBar/searchBar";
 import MediaCatalog from "./components/catalog/mediaCatalog";
 import Loading from "./components/loading/loading";
+import MediaDetail from "./components/mediaDetail/mediaDetail";
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
         <NavigationBar />
         <div className="searchbar-container ml-auto mr-auto h-25 w-75  mt-5">
           <SearchBar />
-          <hr/>
+          <hr />
         </div>
         <div className="container ">
-          <MediaCatalog />
+          <Route exact path="/catalog/:title" component={MediaCatalog} />
+          <Route exact path="/detail/:traktId" component={MediaDetail} />
         </div>
       </div>
     </Router>

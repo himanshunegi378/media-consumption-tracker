@@ -4,6 +4,7 @@ import Trakt from "nodeless-trakt";
 import "./searchBar.css";
 import { connect } from "react-redux";
 import { search,updateMediaCatlog } from "../../redux/action";
+import {withRouter} from "react-router-dom";
 
 class SearchBar extends Component {
   constructor(props) {
@@ -31,10 +32,12 @@ class SearchBar extends Component {
     this.trakt.search
       .text({ type: "movie", query: this.state.search })
       .then(res => {
+        this.props.history.push(`/catalog/${this.state.search}`)
+
         console.log(res);
         this.props.updateCatalog(res)
-
         this.setState({ searchItem: [], mediaList: res });
+
       });
   };
 
@@ -96,4 +99,4 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(SearchBar);
+export default withRouter(connect(null, mapDispatchToProps)(SearchBar));

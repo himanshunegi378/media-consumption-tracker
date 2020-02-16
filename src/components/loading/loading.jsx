@@ -10,7 +10,7 @@ class Loading extends Component {
       return (
         <div
           className="position-absolute h-100 w-100"
-          style={{ backgroundColor: "#eeeeffad", 'z-index': "3", pointerEvents: "none" }}
+          style={{ backgroundColor: "#eeeeffad", 'zIndex': "3", pointerEvents: "none" }}
         ></div>
       );
     }

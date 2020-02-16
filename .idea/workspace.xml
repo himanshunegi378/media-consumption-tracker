@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e2e36a0-205e-4b7e-ae52-3e5d72cc8654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/mediaDetail/mediaDetail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/traktWrapper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/catalog/mediaCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catalog/mediaCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loading/loading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loading/loading.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mediaDetail/mediaDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mediaDetail/mediaDetail.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/searchBar/searchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchBar/searchBar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +128,8 @@
       <workItem from="1581818424541" duration="2526000" />
       <workItem from="1581830214710" duration="12978000" />
       <workItem from="1581854597140" duration="910000" />
-      <workItem from="1581857734801" duration="3727000" />
+      <workItem from="1581857734801" duration="4142000" />
+      <workItem from="1581862063891" duration="1938000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1581607102600</created>
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581778167608</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added mediaDetail.jsx">
+      <created>1581861522724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581861522724</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,17 +211,18 @@
     <MESSAGE value="gh deploy config" />
     <MESSAGE value="media catalor on search" />
     <MESSAGE value="redux-loading-frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux-loading-frontend" />
+    <MESSAGE value="added mediaDetail.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mediaDetail.jsx" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="95" key="#ESLint" timestamp="1581477203896">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="95" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1581477203896" />
-    <state x="406" y="32" key="CommitChangelistDialog2" timestamp="1581778164837">
+    <state x="406" y="32" key="CommitChangelistDialog2" timestamp="1581861520506">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="406" y="32" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581778164837" />
+    <state x="406" y="32" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581861520506" />
     <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1581758589611">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -246,10 +251,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="279" y="63" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581834322127" />
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1581778172326">
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1581861535174">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1581778172326" />
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1581861535174" />
     <state x="474" y="51" width="588" height="732" key="find.popup" timestamp="1581350208417">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

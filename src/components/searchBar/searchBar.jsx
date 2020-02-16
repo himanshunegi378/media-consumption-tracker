@@ -67,7 +67,7 @@ class SearchBar extends Component {
             className=" input-group input-group-sm "
             onSubmit={this.handleSubmit}
           >
-            <input
+            <input autoFocus={true}
               id="search"
               className="search_input form-control my-auto"
               name="search"

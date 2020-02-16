@@ -6,7 +6,6 @@ import {Link, withRouter} from "react-router-dom";
 
 class MediaCard extends Component {
   render() {
-    console.log( this.props.media)
     return (
       <>
         <Card onClick={()=> this.props.history.push(`/detail/${this.props.media.ids.trakt}`)}  className="m-3 z-d card-4 " style={{ width: "18rem", height: "30rem" }}>

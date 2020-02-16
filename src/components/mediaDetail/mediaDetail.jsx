@@ -6,7 +6,6 @@ class MediaDetail extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      ids: {},
       summary: {},
         imageLink : ''
     };
@@ -14,9 +13,10 @@ class MediaDetail extends Component {
   async componentDidMount() {
     let traktId = this.props.match.params.traktId;
     let data = await getMovieDetail(traktId);
+    this.setState({summary: data});
     let imdbId = data.ids.imdb;
     const imageLink = await getMoviePoster(imdbId);
-    this.setState({ summary: data,imageLink: imageLink });
+    this.setState({imageLink: imageLink });
   }
 
   render() {
@@ -31,7 +31,7 @@ class MediaDetail extends Component {
     return (
       <div>
         <Image src={this.state.imageLink}></Image>
-        <h1>{title}</h1>
+        <h1 className='mt-2'>{title} <span className='text-info ' >{year}</span></h1>
         <h5>{tagline}</h5>
         <hr />
         <p>{overview}</p>
